@@ -1,0 +1,74 @@
+
+.section1 {
+  background-color: $accentColor2;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sec1Content {
+  width: 40%;
+  padding-top: 15%;
+  justify-content: center;
+}
+
+.sec1Content h2 {
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: $accentColor;
+  color: $accentColor2;
+  font-family: $headingFont;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  padding: 0 10px 0 10px;
+  margin-top: 20px;
+}
+
+.section2 {
+  background-color: $backgroundColor2;
+  height: 100vh;
+}
+
+.leftImg {
+  width: 80%;
+}
+
+.rightImg {
+  width: 80%;
+}
+
+.section2 button {
+  background-color: $accentColor2;
+  color: $baseFontColor;
+}
+
+.section2 img {
+  width: 30%;
+}
+
+.section3 {
+  background-color: $backgroundColor;
+}
+
+.loc, .comm, .bl, .get {
+  background-color: $accentColor;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.section4 {
+  background-color: $backgroundColor;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.section5 {
+  background-color: $backgroundColor2;
+}
+
