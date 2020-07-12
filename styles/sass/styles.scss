@@ -36,8 +36,13 @@ p {
   font-family: $bodyFont;
   line-height: 32px;
   font-size: 20px;
+  font-weight: 300;
 }
 
 .hamburger {
   display: none;
+}
+
+img {
+  max-width: 100%;
 }

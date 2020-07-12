@@ -280,16 +280,21 @@ a:hover {
   color: #86E0F9;
 }
 
-.rightHeader img {
-  width: 60%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.head {
+  position: relative;
 }
 
+.rightHeader {
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+
+/* ============ HOME SECTION 1 ============== */
 .section1 {
   background-color: #0c1423;
-  height: 60vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,9 +306,7 @@ a:hover {
 .sec1Content {
   width: 40%;
   padding-top: 15%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 .sec1Content h2 {
@@ -317,21 +320,23 @@ button {
   font-size: 20px;
   text-transform: uppercase;
   border: none;
-  padding: 0 10px 0 10px;
-  margin-top: 20px;
+  padding: 10px 15px 10px 15px;
+  margin-top: 10px;
 }
 
+/* ============ HOME SECTION 2 ============== */
 .section2 {
   background-color: #0F614e;
-  height: 100vh;
-}
-
-.leftImg {
-  width: 80%;
-}
-
-.rightImg {
-  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .section2 button {
@@ -339,12 +344,27 @@ button {
   color: #FFFFFF;
 }
 
-.section2 img {
-  width: 30%;
-}
-
+/* ============ HOME SECTION 3 ============== */
 .section3 {
   background-color: #0c1423;
+}
+
+.about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.locations, .community, .blog, .getInTouch {
+  width: 50%;
+  padding: 40px;
 }
 
 .loc, .comm, .bl, .get {
@@ -354,6 +374,7 @@ button {
   border-radius: 50%;
 }
 
+/* ============ HOME SECTION 4 ============== */
 .section4 {
   background-color: #0c1423;
 }
@@ -362,6 +383,7 @@ button {
   width: 100%;
 }
 
+/* ============ HOME SECTION 5 ============== */
 .section5 {
   background-color: #0F614e;
 }
@@ -403,8 +425,13 @@ p {
   font-family: "Lato", sans-serif;
   line-height: 32px;
   font-size: 20px;
+  font-weight: 300;
 }
 
 .hamburger {
   display: none;
+}
+
+img {
+  max-width: 100%;
 }

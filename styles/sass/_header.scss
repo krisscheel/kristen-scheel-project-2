@@ -43,8 +43,13 @@ ul li a {
 a:hover {
   color: $accentColor; 
 }
+.head {
+  position: relative;
+}
 
-.rightHeader img {
-  width: 60%;
-  justify-content: flex-end;
+.rightHeader {
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 200px;
 }
