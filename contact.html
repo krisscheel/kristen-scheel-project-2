@@ -1,1 +1,75 @@
-<h1>TEST2</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/35078fa9ad.js" crossorigin="anonymous"></script>
+  
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap" rel="stylesheet">
+  
+  <!--stylesheet-->
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<header class="contactHeader">
+  <div class="wrapper">
+    <p class="hamburger"><i class="fas fa-bars"></i></p>
+    <nav class="topNav">
+      <ul>
+        <li><a class="link" href="index.html">HOME</a></li>
+        <li><a class="link" href="about.html">ABOUT</a></li><!--link internally-->
+        <li><a class="link" href="blog.html">BLOG</a></li>
+        <li><a class="link" href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <h1>get in touch</h1>
+  </div>
+</header>
+
+<main>
+  <!--========================= FORM STARTS =========================-->
+  <form action="submit">
+    <div class="contactFormTop">
+      <div class="name">
+        <label for="username">Name</label>
+        <input type="text" name="username" placeholder="name" id="username">
+      </div>
+      <div class="email">
+        <label for="email">Email address</label>
+        <input type="email" name="email" placeholder="email" id="email">
+      </div>
+    </div>
+    <div class="contactFormBottom">
+      <textarea name="comment" cols="55" rows="10">Message</textarea>
+      <button class="submitButton">submit</button>
+    </div>
+  </form>
+
+  <div class="contactInfoLeft">
+    <ul> 
+      <li><i class="fab fa-facebook-f"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-whatsapp"></i></li>
+    </ul>
+    <h3>info@email.com</h3>
+    <p>123-456-7890</p>
+    <p>123 Queen Street West, Unit 10</p>
+    <p>Toronto, Ontario</p>
+    <p>M5V2D5</p>
+  </div>
+</main>
+
+<!--========================= FOOTER STARTS =========================-->
+<footer>
+  <div class="copyright">
+    <p>Created by Kristen Scheel for <a href="https://junocollege.com/">Juno College</a> (Copyright © 2018 HackerYou)
+    </p>
+  </div>
+</footer>
+</body>
+</html>
