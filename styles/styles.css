@@ -334,9 +334,6 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .section2 button {
@@ -344,14 +341,29 @@ button {
   color: #FFFFFF;
 }
 
-.leftContent {
+.secTwoTop {
+  display: block;
   width: 50%;
-  margin: 50px;
+}
+
+.secTwoBottom {
+  display: block;
+  width: 50%;
+}
+
+.leftContent {
+  padding: 20px;
+  width: 60%;
+  height: 400px;
+  padding-left: 10%;
+  padding-top: 40px;
 }
 
 .rightContent {
-  width: 50%;
-  margin: 50px;
+  padding: 20px;
+  width: 60%;
+  height: 400px;
+  padding-top: 40px;
 }
 
 /* ============ HOME SECTION 3 ============== */
@@ -466,12 +478,6 @@ body {
   background-color: #0c1423;
 }
 
-.blogHeader h1 {
-  margin-left: 40%;
-  margin-top: 10%;
-  font-size: 3rem;
-}
-
 h4 {
   color: #FFFFFF;
   font-size: 20px;
@@ -501,12 +507,44 @@ h4 {
   display: flex;
 }
 
+.greenBox {
+  background-color: #0F614e;
+  width: 70%;
+  height: 1100px;
+  position: relative;
+  left: 100px;
+  bottom: 600px;
+  z-index: -1;
+}
+
+.greenBoxContent {
+  padding: 700px 10% 10% 10%;
+  z-index: 1;
+}
+
+.greenBoxContent h4 {
+  margin: 20px 0 20px 0;
+}
+
 .blogContainer {
   position: absolute;
   top: -250px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  right: 0;
+}
+
+.blogContainer h1 {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+
+.blogPosts li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.blogPosts li a:hover {
+  color: #86E0F9;
 }
 
 .date {
@@ -540,7 +578,9 @@ h4 {
 
 /* ========= BLOG FORM STYLES ====================*/
 .commentContent {
-  margin-top: 40%;
+  margin-top: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 textarea {
@@ -549,32 +589,7 @@ textarea {
   background-color: #0c1423;
   color: #FFFFFF;
   border: 2px solid #86E0F9;
-}
-
-label {
-  display: block;
-  visibility: hidden;
-}
-
-.submitButton {
-  background-color: #0F614e;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-  width: 50%;
-}
-
-.topHalf {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.email {
-  margin-left: 30px;
+  width: 830px;
 }
 
 input {
@@ -582,6 +597,7 @@ input {
   border: 0;
   outline: 0;
   border-bottom: 2px solid #86E0F9;
+  width: 400px;
 }
 
 input::-webkit-input-placeholder {
@@ -598,6 +614,32 @@ input::-ms-input-placeholder {
 
 input::placeholder {
   color: #FFFFFF;
+}
+
+label {
+  display: block;
+  visibility: hidden;
+}
+
+.submitButton {
+  background-color: #0F614e;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  width: 830px;
+}
+
+.topHalf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.email {
+  margin-left: 30px;
 }
 
 .bottomForm {

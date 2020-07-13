@@ -11,12 +11,6 @@ body {
   background-color: $backgroundColor;
 }
 
-.blogHeader h1 {
-  margin-left: 40%;
-  margin-top: 10%;
-  font-size: 3rem;
-}
-
 h4 {
   color: $baseFontColor;
   font-size: 20px;
@@ -39,10 +33,44 @@ h4 {
   display: flex;
 }
 
+.greenBox {
+background-color: $backgroundColor2;
+width: 70%;
+height: 1100px;
+position: relative;
+left: 100px;
+bottom: 600px;
+z-index: -1;
+}
+
+.greenBoxContent {
+  padding: 700px 10% 10% 10%;
+  z-index: 1;
+}
+
+.greenBoxContent h4 {
+  margin: 20px 0 20px 0;
+}
+
 .blogContainer {
   position: absolute;
   top: -250px;
-  justify-content: flex-end;
+  right: 0;
+}
+
+.blogContainer h1 {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+
+.blogPosts li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.blogPosts li a:hover {
+  color: $accentColor;
 }
 
 .date {
@@ -71,7 +99,9 @@ h4 {
 
 /* ========= BLOG FORM STYLES ====================*/ 
 .commentContent {
-  margin-top: 40%;
+  margin-top: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 textarea {
@@ -80,7 +110,19 @@ textarea {
   background-color: $accentColor2;
   color: $baseFontColor;
   border: 2px solid $accentColor;
+  width: 830px;
+}
 
+input {
+  background-color: $accentColor2;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid $accentColor;
+  width: 400px;
+}
+
+input::placeholder {
+  color: $baseFontColor;
 }
 
 label {
@@ -92,7 +134,7 @@ label {
   background-color: $backgroundColor2;
   color: $baseFontColor;
   margin-bottom: 20px;
-  width: 50%;
+  width: 830px;
 }
 
 .topHalf {
@@ -102,16 +144,6 @@ label {
 
 .email {
   margin-left: 30px;
-}
-input {
-  background-color: $accentColor2;
-  border: 0;
-  outline: 0;
-  border-bottom: 2px solid $accentColor;
-}
-
-input::placeholder {
-  color: $baseFontColor;
 }
 
 .bottomForm {
