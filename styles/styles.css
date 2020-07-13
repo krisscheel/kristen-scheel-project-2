@@ -344,6 +344,16 @@ button {
   color: #FFFFFF;
 }
 
+.leftContent {
+  width: 50%;
+  margin: 50px;
+}
+
+.rightContent {
+  width: 50%;
+  margin: 50px;
+}
+
 /* ============ HOME SECTION 3 ============== */
 .section3 {
   background-color: #0c1423;
@@ -383,17 +393,208 @@ button {
   width: 100%;
 }
 
+.bottomSec4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bottomSec4 img {
+  height: 300px;
+  margin: 40px;
+}
+
+.rightSec4 {
+  width: 50%;
+  margin: 40px;
+}
+
 /* ============ HOME SECTION 5 ============== */
 .section5 {
   background-color: #0F614e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.imageGallery img {
+  height: 300px;
+  margin: 30px;
+}
+
+.imageGallery {
+  margin: 0 auto;
 }
 
 footer {
   background-color: #86E0F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer p {
   color: #0c1423;
+}
+
+.blogHeader {
+  background: url(../images/blog-header.jpg);
+  height: 50vh;
+  background-position: left bottom;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body {
+  background-color: #0c1423;
+}
+
+.blogHeader h1 {
+  margin-left: 40%;
+  margin-top: 10%;
+  font-size: 3rem;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+}
+
+.blogSection1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.leftColumn {
+  width: 40%;
+}
+
+.rightColumn {
+  width: 60%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blogContainer {
+  position: absolute;
+  top: -250px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.date {
+  margin-bottom: 50px;
+}
+
+.commentsSection h4 {
+  margin: 40px 0 50px 0;
+}
+
+.tuesday, .wednesday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.tuesday img, .wednesday img {
+  margin-right: 20px;
+  width: 10%;
+}
+
+.commentsRight {
+  display: block;
+  width: 80%;
+}
+
+/* ========= BLOG FORM STYLES ====================*/
+.commentContent {
+  margin-top: 40%;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  visibility: hidden;
+}
+
+.submitButton {
+  background-color: #0F614e;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.topHalf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.email {
+  margin-left: 30px;
+}
+
+input {
+  background-color: #0c1423;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #86E0F9;
+}
+
+input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+input::placeholder {
+  color: #FFFFFF;
 }
 
 html {
@@ -402,7 +603,7 @@ html {
 
 .wrapper {
   max-width: 1080px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 

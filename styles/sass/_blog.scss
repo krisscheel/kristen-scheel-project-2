@@ -1,0 +1,111 @@
+.blogHeader {
+  background: url(../images/blog-header.jpg);
+  height: 50vh;
+  background-position: left bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: $backgroundColor;
+}
+
+.blogHeader h1 {
+  margin-left: 40%;
+  margin-top: 10%;
+  font-size: 3rem;
+}
+
+h4 {
+  color: $baseFontColor;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: $headingFont;
+}
+
+.blogSection1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftColumn {
+  width: 40%;
+}
+
+.rightColumn {
+  width: 60%;
+  position: relative;
+  display: flex;
+}
+
+.blogContainer {
+  position: absolute;
+  top: -250px;
+  justify-content: flex-end;
+}
+
+.date {
+  margin-bottom: 50px;
+}
+
+.commentsSection h4{
+  margin: 40px 0 50px 0;
+}
+
+.tuesday, .wednesday {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.tuesday img, .wednesday img {
+  margin-right: 20px;
+  width: 10%;
+}
+
+.commentsRight {
+  display: block;
+  width: 80%;
+}
+
+/* ========= BLOG FORM STYLES ====================*/ 
+.commentContent {
+  margin-top: 40%;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  visibility: hidden;
+}
+
+.submitButton {
+  background-color: $backgroundColor2;
+  color: $baseFontColor;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.topHalf {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  margin-left: 30px;
+}
+input {
+  background-color: $accentColor2;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid $accentColor;
+}
+
+input::placeholder {
+  color: $baseFontColor;
+}
