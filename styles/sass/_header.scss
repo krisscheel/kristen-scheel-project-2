@@ -1,7 +1,7 @@
 
 header {
   background: url(../images/header-image.jpg);
-  height: 50vh;
+  height: 70vh;
   background-position: left bottom;
   background-size: cover;
   display: flex;
@@ -15,6 +15,8 @@ h1 {
   font-size: 6rem;
   justify-content: left;
   width: 20%;
+  font-weight: 700;
+  padding-top: 150px;
 }
 
 nav {

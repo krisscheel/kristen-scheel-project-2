@@ -22,10 +22,11 @@ button {
   color: $accentColor2;
   font-family: $headingFont;
   font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
   border: none;
   padding: 10px 15px 10px 15px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 /* ============ HOME SECTION 2 ============== */
@@ -39,33 +40,32 @@ button {
   background-color: $backgroundColor2;
   display: flex;
   flex-direction: row;
-  display: block;
-}
-
-.secTwoTop {
-  width: 100%;
-  display: flex;
-}
-
-.secTwoBottom {
-  width: 100%;
-  display: flex;
 }
 
 .leftContent {
-  padding: 20px;
-  width: 60%;
-  height: 400px;
-  padding-left: 10%;
-  padding-top: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .rightContent {
-  padding: 20px;
-  width: 60%;
-  height: 400px;
-  padding-top: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
+
+.rightImg img {
+  box-shadow: -20px -20px $accentColor;
+  position: absolute;
+  right: 0;
+}
+
+.leftImg img {
+  box-shadow: 20px 20px $accentColor;
+}
+
 
 /* ============ HOME SECTION 3 ============== */
 .section3 {
@@ -111,7 +111,7 @@ button {
 }
 
 .rightSec4 {
-  width: 50%;
+  width: 70%;
   margin: 40px;
 }
 

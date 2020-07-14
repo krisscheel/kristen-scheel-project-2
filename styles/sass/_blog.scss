@@ -28,12 +28,21 @@ h4 {
   width: 30%;
   margin-top: 5%;
   height: 800px;
-  background-color: $backgroundColor2; 
+}
+
+.imgBox {
+  width: 100%;
 }
 
 .greenBoxContent {
-  width: 60%;
-  padding: 20px;
+  width: 90%;
+  padding: 500px 0 50px 20px;
+  background-color: $backgroundColor2;
+  height: 800px;
+  position: relative;
+  top: -400px;
+  right: -50px;
+  z-index: -1;
 }
 
 h4 {
@@ -75,6 +84,8 @@ h4 {
   color: white;
   text-decoration: none;
   padding: 10px;
+  font-family: $bodyFont;
+  font-weight: 300;
 }
 
 .blogPosts li a:hover {

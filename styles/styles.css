@@ -223,7 +223,7 @@ textarea {
 
 header {
   background: url(../images/header-image.jpg);
-  height: 50vh;
+  height: 70vh;
   background-position: left bottom;
   background-size: cover;
   display: -webkit-box;
@@ -244,6 +244,8 @@ h1 {
       -ms-flex-pack: left;
           justify-content: left;
   width: 20%;
+  font-weight: 700;
+  padding-top: 150px;
 }
 
 nav {
@@ -318,10 +320,11 @@ button {
   color: #0c1423;
   font-family: "Barlow", sans-serif;
   font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
   border: none;
   padding: 10px 15px 10px 15px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 /* ============ HOME SECTION 2 ============== */
@@ -339,36 +342,46 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  display: block;
-}
-
-.secTwoTop {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.secTwoBottom {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .leftContent {
-  padding: 20px;
-  width: 60%;
-  height: 400px;
-  padding-left: 10%;
-  padding-top: 40px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .rightContent {
-  padding: 20px;
-  width: 60%;
-  height: 400px;
-  padding-top: 40px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.rightImg img {
+  -webkit-box-shadow: -20px -20px #86E0F9;
+          box-shadow: -20px -20px #86E0F9;
+  position: absolute;
+  right: 0;
+}
+
+.leftImg img {
+  -webkit-box-shadow: 20px 20px #86E0F9;
+          box-shadow: 20px 20px #86E0F9;
 }
 
 /* ============ HOME SECTION 3 ============== */
@@ -426,7 +439,7 @@ button {
 }
 
 .rightSec4 {
-  width: 50%;
+  width: 70%;
   margin: 40px;
 }
 
@@ -512,12 +525,21 @@ h4 {
   width: 30%;
   margin-top: 5%;
   height: 800px;
-  background-color: #0F614e;
+}
+
+.imgBox {
+  width: 100%;
 }
 
 .greenBoxContent {
-  width: 60%;
-  padding: 20px;
+  width: 90%;
+  padding: 500px 0 50px 20px;
+  background-color: #0F614e;
+  height: 800px;
+  position: relative;
+  top: -400px;
+  right: -50px;
+  z-index: -1;
 }
 
 h4 {
@@ -560,6 +582,8 @@ h4 {
   color: white;
   text-decoration: none;
   padding: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 .blogPosts li a:hover {
