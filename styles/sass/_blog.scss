@@ -21,46 +21,44 @@ h4 {
 .blogSection1 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .leftColumn {
-  width: 40%;
+  width: 30%;
+  margin-top: 5%;
+  
 }
 
 .rightColumn {
   width: 60%;
-  position: relative;
-  display: flex;
+  margin-top: -15%;
 }
 
-.greenBox {
-background-color: $backgroundColor2;
-width: 70%;
-height: 1100px;
-position: relative;
-left: 100px;
-bottom: 600px;
-z-index: -1;
+.rightColumn h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
 }
 
 .greenBoxContent {
-  padding: 700px 10% 10% 10%;
-  z-index: 1;
+  background-color: $backgroundColor2;
+  }
+
+.latestBlogPost {
+  box-shadow: -20px 20px $accentColor;
 }
 
-.greenBoxContent h4 {
-  margin: 20px 0 20px 0;
-}
-
-.blogContainer {
-  position: absolute;
-  top: -250px;
+.blogContainer img {
+  width: 100%;
+  position: relative;
   right: 0;
+  display: block;
 }
 
-.blogContainer h1 {
-  font-size: 3rem;
-  padding-bottom: 40px;
+.blogBox {
+  background-color: $backgroundColor; 
+  display: block;
+  padding-top: 20px;
 }
 
 .blogPosts li a {
@@ -98,11 +96,6 @@ z-index: -1;
 }
 
 /* ========= BLOG FORM STYLES ====================*/ 
-.commentContent {
-  margin-top: 60%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
 
 textarea {
   display: block;

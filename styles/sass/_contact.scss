@@ -9,13 +9,20 @@
 }
 
 .formSectionOne {
-  width: 60%;
+  width: 50%;
   display: inline;
+  margin-right: 10%;
 }
 
 .contactInfoLeft {
   width: 40%;
   display: inline;
+  margin-left: 10%;
+  padding: 30px;
+}
+
+.contactInfoLeft h3 {
+  padding: 15px 0px;
 }
 
 .contactInfoLeft li {
@@ -24,11 +31,14 @@
 
 .formSectionOne {
   width: 50%;
+  position: relative;
+  bottom: 300px;
 }
 
 .formSectionOne h1 {
   font-size: 3rem;
   padding-bottom: 40px;
+  width: 50%;
 }
 
 .contactPageForm {
@@ -36,6 +46,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  box-shadow: -30px 30px $accentColor;
+  padding: 10px 30px 10px 30px;
 }
 
 .contactFormTop {
@@ -48,6 +60,14 @@
   color: $baseFontColor;
   width: 830px; 
   margin-bottom: 40px;
+}
+
+.submitButton1:hover {
+  background-color: $accentColor;
+}
+
+input {
+  background-color: $backgroundColor2;
 }
 
 .contactFormBottom textarea {

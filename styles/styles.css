@@ -503,48 +503,46 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .leftColumn {
-  width: 40%;
+  width: 30%;
+  margin-top: 5%;
 }
 
 .rightColumn {
   width: 60%;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-top: -15%;
 }
 
-.greenBox {
-  background-color: #0F614e;
-  width: 70%;
-  height: 1100px;
-  position: relative;
-  left: 100px;
-  bottom: 600px;
-  z-index: -1;
+.rightColumn h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
 }
 
 .greenBoxContent {
-  padding: 700px 10% 10% 10%;
-  z-index: 1;
+  background-color: #0F614e;
 }
 
-.greenBoxContent h4 {
-  margin: 20px 0 20px 0;
+.latestBlogPost {
+  -webkit-box-shadow: -20px 20px #86E0F9;
+          box-shadow: -20px 20px #86E0F9;
 }
 
-.blogContainer {
-  position: absolute;
-  top: -250px;
+.blogContainer img {
+  width: 100%;
+  position: relative;
   right: 0;
+  display: block;
 }
 
-.blogContainer h1 {
-  font-size: 3rem;
-  padding-bottom: 40px;
+.blogBox {
+  background-color: #0c1423;
+  display: block;
+  padding-top: 20px;
 }
 
 .blogPosts li a {
@@ -587,12 +585,6 @@ h4 {
 }
 
 /* ========= BLOG FORM STYLES ====================*/
-.commentContent {
-  margin-top: 60%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 textarea {
   display: block;
   margin-top: 20px;
@@ -671,13 +663,20 @@ label {
 }
 
 .formSectionOne {
-  width: 60%;
+  width: 50%;
   display: inline;
+  margin-right: 10%;
 }
 
 .contactInfoLeft {
   width: 40%;
   display: inline;
+  margin-left: 10%;
+  padding: 30px;
+}
+
+.contactInfoLeft h3 {
+  padding: 15px 0px;
 }
 
 .contactInfoLeft li {
@@ -686,11 +685,14 @@ label {
 
 .formSectionOne {
   width: 50%;
+  position: relative;
+  bottom: 300px;
 }
 
 .formSectionOne h1 {
   font-size: 3rem;
   padding-bottom: 40px;
+  width: 50%;
 }
 
 .contactPageForm {
@@ -705,6 +707,9 @@ label {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: -30px 30px #86E0F9;
+          box-shadow: -30px 30px #86E0F9;
+  padding: 10px 30px 10px 30px;
 }
 
 .contactFormTop {
@@ -722,6 +727,14 @@ label {
   color: #FFFFFF;
   width: 830px;
   margin-bottom: 40px;
+}
+
+.submitButton1:hover {
+  background-color: #86E0F9;
+}
+
+input {
+  background-color: #0F614e;
 }
 
 .contactFormBottom textarea {
