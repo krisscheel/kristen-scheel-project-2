@@ -325,6 +325,11 @@ button {
 }
 
 /* ============ HOME SECTION 2 ============== */
+.section2 button {
+  background-color: #0c1423;
+  color: #FFFFFF;
+}
+
 .section2 {
   background-color: #0F614e;
   display: -webkit-box;
@@ -334,21 +339,21 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-.section2 button {
-  background-color: #0c1423;
-  color: #FFFFFF;
+  display: block;
 }
 
 .secTwoTop {
-  display: block;
-  width: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .secTwoBottom {
-  display: block;
-  width: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .leftContent {
@@ -423,6 +428,11 @@ button {
 .rightSec4 {
   width: 50%;
   margin: 40px;
+}
+
+.imageContainer img {
+  -webkit-box-shadow: 20px 20px #86E0F9;
+          box-shadow: 20px 20px #86E0F9;
 }
 
 /* ============ HOME SECTION 5 ============== */
@@ -650,8 +660,81 @@ label {
   background: url(../images/contact-header.jpg);
 }
 
+.contactPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.formSectionOne {
+  width: 60%;
+  display: inline;
+}
+
+.contactInfoLeft {
+  width: 40%;
+  display: inline;
+}
+
 .contactInfoLeft li {
   color: #FFFFFF;
+}
+
+.formSectionOne {
+  width: 50%;
+}
+
+.formSectionOne h1 {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+
+.contactPageForm {
+  background-color: #0F614e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactFormTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.submitButton1 {
+  background-color: #0c1423;
+  color: #FFFFFF;
+  width: 830px;
+  margin-bottom: 40px;
+}
+
+.contactFormBottom textarea {
+  background-color: #0F614e;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.fab {
+  color: white;
+  display: inline;
+  padding-right: 20px;
 }
 
 html {

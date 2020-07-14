@@ -29,26 +29,27 @@ button {
 }
 
 /* ============ HOME SECTION 2 ============== */
-.section2 {
-  background-color: $backgroundColor2;
-  display: flex;
-  flex-direction: row;
-}
 
 .section2 button {
   background-color: $accentColor2;
   color: $baseFontColor;
 }
 
-.secTwoTop {
+.section2 {
+  background-color: $backgroundColor2;
+  display: flex;
+  flex-direction: row;
   display: block;
-  width: 50%;
-  
+}
+
+.secTwoTop {
+  width: 100%;
+  display: flex;
 }
 
 .secTwoBottom {
-  display: block;
-  width: 50%; 
+  width: 100%;
+  display: flex;
 }
 
 .leftContent {
@@ -114,6 +115,9 @@ button {
   margin: 40px;
 }
 
+.imageContainer img {
+  box-shadow: 20px 20px $accentColor; 
+}
 /* ============ HOME SECTION 5 ============== */
 
 .section5 {
