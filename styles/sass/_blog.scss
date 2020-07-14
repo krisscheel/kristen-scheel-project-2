@@ -27,7 +27,21 @@ h4 {
 .leftColumn {
   width: 30%;
   margin-top: 5%;
-  
+  height: 800px;
+  background-color: $backgroundColor2; 
+}
+
+.greenBoxContent {
+  width: 60%;
+  padding: 20px;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+.recent {
+  padding-top: 20px;
 }
 
 .rightColumn {
@@ -39,10 +53,6 @@ h4 {
   font-size: 3rem;
   margin-bottom: 25px;
 }
-
-.greenBoxContent {
-  background-color: $backgroundColor2;
-  }
 
 .latestBlogPost {
   box-shadow: -20px 20px $accentColor;
@@ -58,7 +68,7 @@ h4 {
 .blogBox {
   background-color: $backgroundColor; 
   display: block;
-  padding-top: 20px;
+  padding: 30px 100px 30px 50px;
 }
 
 .blogPosts li a {
@@ -104,6 +114,9 @@ textarea {
   color: $baseFontColor;
   border: 2px solid $accentColor;
   width: 830px;
+  padding: 20px;
+  font-family: $headingFont;
+  font-weight: 400;
 }
 
 input {

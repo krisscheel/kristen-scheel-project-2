@@ -511,6 +511,21 @@ h4 {
 .leftColumn {
   width: 30%;
   margin-top: 5%;
+  height: 800px;
+  background-color: #0F614e;
+}
+
+.greenBoxContent {
+  width: 60%;
+  padding: 20px;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+.recent {
+  padding-top: 20px;
 }
 
 .rightColumn {
@@ -521,10 +536,6 @@ h4 {
 .rightColumn h1 {
   font-size: 3rem;
   margin-bottom: 25px;
-}
-
-.greenBoxContent {
-  background-color: #0F614e;
 }
 
 .latestBlogPost {
@@ -542,7 +553,7 @@ h4 {
 .blogBox {
   background-color: #0c1423;
   display: block;
-  padding-top: 20px;
+  padding: 30px 100px 30px 50px;
 }
 
 .blogPosts li a {
@@ -592,6 +603,9 @@ textarea {
   color: #FFFFFF;
   border: 2px solid #86E0F9;
   width: 830px;
+  padding: 20px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
 }
 
 input {
