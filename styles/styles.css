@@ -497,6 +497,10 @@ footer p {
           flex-direction: row;
 }
 
+.noDisplay {
+  display: none;
+}
+
 body {
   background-color: #0c1423;
 }
@@ -556,7 +560,7 @@ h4 {
 }
 
 .rightColumn h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 25px;
 }
 
@@ -701,13 +705,11 @@ label {
 }
 
 .formSectionOne {
-  width: 50%;
   display: inline;
   margin-right: 10%;
 }
 
 .contactInfoLeft {
-  width: 40%;
   display: inline;
   margin-left: 10%;
   padding: 30px;
@@ -845,6 +847,86 @@ input {
   .rightImg {
     display: none;
   }
+  .blogSection1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .leftColumn {
+    width: 100%;
+  }
+  textarea {
+    width: 415px;
+    padding: 10px;
+  }
+  .textarea {
+    display: block;
+    margin-top: 20px;
+    background-color: #0c1423;
+    color: #FFFFFF;
+    border: 2px solid #86E0F9;
+    width: 830px;
+    padding: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+  }
+  input {
+    background-color: #0c1423;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #86E0F9;
+    width: 400px;
+  }
+  input::-webkit-input-placeholder {
+    color: #FFFFFF;
+  }
+  input:-ms-input-placeholder {
+    color: #FFFFFF;
+  }
+  input::-ms-input-placeholder {
+    color: #FFFFFF;
+  }
+  input::placeholder {
+    color: #FFFFFF;
+  }
+  label {
+    display: block;
+    visibility: hidden;
+  }
+  .rightColumn {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactPage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactFormBottom textarea {
+    width: 400px;
+  }
+  .contactFormTop input {
+    width: 200px;
+    background-color: #86E0F9;
+    display: inline-block;
+  }
+  .submitButton1 {
+    width: 200px;
+    background-color: #86E0F9;
+  }
 }
 
 @media (max-width: 990px) {
@@ -895,6 +977,12 @@ input {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .contactInfoLeft {
+    width: 100%;
+  }
+  .formSectionOne h1 {
+    padding-top: 30px;
   }
 }
 
